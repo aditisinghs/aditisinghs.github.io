@@ -1,4 +1,3 @@
-// src/pages/Timeline.jsx
 import React from 'react';
 import childPic from '../assets/child.png'
 import estiLab from '../assets/esti_lab.png'
@@ -9,7 +8,7 @@ const events = [
     year: "2025",
     title: "Presenting at CogSci",
     description:
-      "Going to San Francisco with Maya Taliaferro, and giving a talk about how bilinguals reconcile non-overlapping category boundaries across languages...and ways in which we can model this computationally.",
+      "Going to San Francisco with Maya Taliaferro to present our paper about how bilinguals reconcile non-overlapping category boundaries across languages...and ways in which we can model this computationally.",
 //     image: examplePic,
   },
   {
@@ -35,7 +34,7 @@ const events = [
     year: "2021",
     title: "Joined Uri Hasson's Lab",
     description:
-      "Starting working with Uri Hasson, Ariel Goldstein, Zaid Zada, Bobbi Aubrey, Leo Niekerken, Ken Wang, and Harsha Gazula on modeling ECoG data of naturalistics conversations using large language models like GPT-2 and Whisper.",
+      "Started working with Uri Hasson, Ariel Goldstein, Zaid Zada, Bobbi Aubrey, Leo Niekerken, Ken Wang, and Harsha Gazula on modeling ECoG data of naturalistics conversations using large language models like GPT-2 and Whisper.",
       image: uriLab
   },
 
@@ -43,13 +42,13 @@ const events = [
     year: "2020",
     title: "Joined Tom Griffith's  Computational Cognitive Science Lab",
     description:
-      "Started working with Tom Griffiths and Ishita Dasgupta on a project about how LSTMs can learn compositionality and infer meaning from context!",
+      "Started working with Tom Griffiths and Ishita Dasgupta: researching how LSTMs can learn compositionality and infer meaning from context by augmenting its training data with minimal pairs examples.",
   },
     {
     year: "2017",
     title: "Joined Wei Ji Ma's Lab",
     description:
-      "Started working with Wei Ji Ma and Andra Mihali on a project about visual short-term memory!",
+      "Started working with Wei Ji Ma and Andra Mihali, analyzing human behavior in a visual short-term memory task by creating computational models with a resource-limited encoding stage and a Bayesian decision rule.",
   },
 
     {
@@ -63,7 +62,7 @@ const events = [
 export default function Timeline() {
   return (
     <main className="pt-32 min-h-screen bg-white text-gray-900 p-10 font-sans">
-      <h1 className="text-4xl font-bold text-sky-800 mb-4">A Mildly Chaotic Progression</h1>
+      <h1 className="text-4xl font-bold text-sky-800 mb-4">Over the Years...</h1>
       <div className="relative border-l-4 border-sky-500 pl-6 space-y-10">
         {events.map((event, index) => (
           <div key={index} className="relative">

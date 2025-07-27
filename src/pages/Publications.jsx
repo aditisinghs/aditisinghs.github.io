@@ -20,7 +20,7 @@ export default function Publications() {
       <span className="text-gray-800 font-medium">
   “A Computational Approach to Search in Visual Working Memory”
 </span>{' '}
-      <em>Nature Human Behavior.</em>{' '} 
+      <em>Under review in Journal of Vision.</em>{' '} 
       <a
         href="https://osf.io/jqthb/download"
         target="_blank"
