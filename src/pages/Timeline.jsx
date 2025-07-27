@@ -2,6 +2,7 @@ import React from 'react';
 import childPic from '../assets/child.png'
 import estiLab from '../assets/esti_lab.png'
 import uriLab from '../assets/uri_lab.png'
+import andra from '../assets/andra.jpg'
 
 const events = [
       {
@@ -49,6 +50,7 @@ const events = [
     title: "Joined Wei Ji Ma's Lab",
     description:
       "Started working with Wei Ji Ma and Andra Mihali, analyzing human behavior in a visual short-term memory task by creating computational models with a resource-limited encoding stage and a Bayesian decision rule.",
+      image: andra,
   },
 
     {
